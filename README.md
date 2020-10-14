@@ -36,5 +36,6 @@ Command :    sudo  ./install.sh
 
 
 Step 5:   Now run the_scripter.sh file
+
 Command :    ./the_scripter.sh
 
