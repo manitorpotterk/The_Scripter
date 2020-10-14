@@ -3,6 +3,13 @@ The_Scripter is tools for making pentesting easy. It contains lots of automation
 
 
 
+  
+  
+  
+  
+  
+  
+  
   INSTALLATION PROCESS
   
   
