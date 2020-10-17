@@ -1,30 +1,36 @@
 # The_Scripter
-The_Scripter is tools for making pentesting easy. It contains lots of automation scripts like hash cracker, ssh_cracker,etc.
+
+The Scripter is a beginner Friendly tool that is made by hackers and made for hackers. This
+tool was created to make hackers’ life easy. This tool has the main script that will manage
+all other scripts. This tool will be designed in such a way so that hackers will find it
+interesting and easy to work with
+
 ![](images/the_scripter.png)
-  
+ 
+ 
 ## INSTALLATION PROCESS
   
- Step 1:     Clone the Script from the given Github Repository
- Command:    git clone https://github.com/manitorpotterk/The_Scripter
+ **Step 1:**     Clone the Script from the given Github Repository
+ **Command:**    git clone https://github.com/manitorpotterk/The_Scripter
 
-Step 2:     cd to the scripter Directory
-Command:  cd The_Scripter-main/
+**Step 2:**     cd to the scripter Directory
+**Command:**  cd The_Scripter-main/
 
 
-Step 3: Permit the script  to run using the chmod command 
-Command:  chmod +x  install.sh
+**Step 3:** Permit the script  to run using the chmod command 
+**Command:**  chmod +x  install.sh
 
-Step 4:    Run install.sh  file as a sudo user
-Command :    sudo  ./install.sh
+**Step 4:**    Run install.sh  file as a sudo user
+**Command : **   sudo  ./install.sh
 
-Step 5:   Now run the_scripter.sh file
-Command :    ./the_scripter.sh
+**Step 5:**   Now run the_scripter.sh file
+**Command : **   ./the_scripter.sh
 
 Now you will get command line option to select which script you want to run.
 
 ![](images/mainpage.png)
 
-Lets know what these scripts are doing one by one
+**Lets know what these scripts are doing one by one**
 
 ## 1. Payload Generator
 The Payload Generator script will help to generate different types of payloads according to you.
