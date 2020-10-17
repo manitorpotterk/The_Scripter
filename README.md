@@ -10,21 +10,20 @@ interesting and easy to work with
  
 ## INSTALLATION PROCESS
   
- **Step 1:**     Clone the Script from the given Github Repository
- **Command:**    git clone https://github.com/manitorpotterk/The_Scripter
+**Step 1:**     Clone the Script from the given Github Repository
+**Command:**    git clone https://github.com/manitorpotterk/The_Scripter
 
 **Step 2:**     cd to the scripter Directory
 **Command:**  cd The_Scripter-main/
-
 
 **Step 3:** Permit the script  to run using the chmod command 
 **Command:**  chmod +x  install.sh
 
 **Step 4:**    Run install.sh  file as a sudo user
-**Command : **   sudo  ./install.sh
+**Command :**   sudo  ./install.sh
 
 **Step 5:**   Now run the_scripter.sh file
-**Command : **   ./the_scripter.sh
+**Command :**   ./the_scripter.sh
 
 Now you will get command line option to select which script you want to run.
 
