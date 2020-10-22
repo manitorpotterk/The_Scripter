@@ -14,7 +14,7 @@ echo '4.Payload Generator'
 echo '5.Webserver'
 echo '6.Recon'
 echo '7.Password Generator'
-echo '8.Active Directory Enumerator'
+echo '8.Juice Shop'
 echo '9.Cron Job Adder'
 echo '10.SSH Key Adder'
 echo ''
@@ -46,7 +46,7 @@ then
 	bash scripts/Password_Genrator.sh
 elif [[ $option == 8 ]]
 then
-	echo 'wait updating'
+	bash scripts/juice.sh
 elif [[ $option == 9 ]]
 then
 	bash scripts/add_cronjob.sh
