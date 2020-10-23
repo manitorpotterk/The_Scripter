@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo "=============================================================================================="
+echo "                                       Starting SHELL STABILIZER                              "
+echo "=============================================================================================="
 source "$(pwd)/scripts/function.sh"
 
 echo 'If you have shell then only it will work . Kill the process if not. '
