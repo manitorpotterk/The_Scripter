@@ -53,7 +53,7 @@ the cracking script for all the hash types that got detected in parallel.
 This script will take a wordlist and hash as basic input. There will be other options as well to
 make this script more useful for the user.
 
-![](images2image2.jpg)
+![](images/image2.jpg)
 
 
 ## 3. SSH Cracker
