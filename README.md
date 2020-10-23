@@ -9,7 +9,7 @@ if they are at some intermediate level.
 
 
 
-![](images/the_scripter.png)
+![](images/the_scripter.jpg)
  
  
 ## INSTALLATION PROCESS
@@ -31,7 +31,7 @@ if they are at some intermediate level.
 
 Now you will get command line option to select which script you want to run.
 
-![](images/mainpage.png)
+![](images/mainpage.jpg)
 
 **Lets know what these scripts are doing one by one**
 
@@ -44,6 +44,8 @@ By stabilizing the shell we can use tools like vim, vi very swiftly and our shel
 ssh_shell. so, We can use back command and arrow commands and Ctrl + c will not kill the
 shell we can also use sudo and su after that on the machine.
 
+![](images/image1.jpg)
+
 
 ## 2. Hash Cracker
 This script will contain code for automatic hash detection. After detecting hash it will run
@@ -51,13 +53,15 @@ the cracking script for all the hash types that got detected in parallel.
 This script will take a wordlist and hash as basic input. There will be other options as well to
 make this script more useful for the user.
 
+![](images2image2.jpg)
+
 
 ## 3. SSH Cracker
 This script will contain code for cracking id_rsa key using John The Ripper.
 It will make id_rsa executable and crack it’s password . It will also detect id_rsa is openkey or private key .
 This script will also have option for bruteforcing ssh username.
 
-![](images/image7.jpg)
+![](images/image3.jpg)
 
 
 ## 4. Payload Generator
@@ -77,16 +81,22 @@ create a webserver.
 2. Ruby
 3. PHP
 
+![](images/image5.jpg)
+
 
 ## 6. Recon
 Recon is a simple script that will scan the whole machine stepwise  Like first it will quickly
 give results and then will perform a script scan and also start the full scan in the background.
+
+![](images/image6.jpg)
 
 
 ## 7. Password Generator
 Password Generator is a password generation tool that will print the password of the
 desired length you just need to enter the length of the password and 4 passwords will be
 printed and you can choose the password which you like the most.
+
+![](images/image7.jpg)
 
 
 ## 8. Juice Shop
@@ -99,11 +109,15 @@ Apart from the hacker and awareness training use case, pentesting proxies or sec
 scanners can use Juice Shop as a “guinea pig”-application to check how well their tools cope
 with JavaScript-heavy application frontends and REST APIs.
 
+![](images/image8.jpg)
+
 
 ## 9. Cron Job Adder
 Cron job adder can be used to add any command directly to the cron job . Person can directly us
 his script add any command o heir own cron. It's most importan use is thst attacker can upload this
 script to victim machine and then run it to add cron jobs and get privilage escalation.
+
+![](images/image9.jpg)
 
 
 ## 10. SSH Adder
@@ -111,6 +125,7 @@ SSH adder is used to generate id_rsa key of the attacker machine and then use it
 victim authorized ssh key. SSH adder uses xte tool for automating the shifting of shell from attacker to 
 victim. It's one of those scripts which can ease the art of Linux Privilage Escalation. 
 
+![](images/image10.jpg)
 
 
 
