@@ -1,5 +1,7 @@
 #!/bin/bash
 
+apt-get install figlet
+
 echo "Installing Stabilize Shell Dependencies"
 
 apt-get install xdotool
@@ -15,9 +17,14 @@ pip3 install futures
 pip3 install argparse
 pip3 install requests
 
+echo "Installing Docker ............." 
+sudo apt-get update
+sudo apt-get install  docker
+sudo apt-get install docker.io
+
 
 chmod +x $PWD/the_scripter.sh
-chmod +x $PWD/scripts/active_enumerator
+chmod +x $PWD/scripts/juice.sh
 chmod +x $PWD/scripts/add_cronjob.sh
 chmod +x $PWD/scripts/add_ssh_key.sh
 chmod +x $PWD/scripts/function.sh
