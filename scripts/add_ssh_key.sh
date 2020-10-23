@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source "/opt/pmp/functions.sh"
+source "source "$(pwd)/scripts/function.sh"
 
 yes y | ssh-keygen -f $(pwd)/sshkey -N ""
 upload_file.sh $(pwd)/sshkey.pub         # this will call hide_guake
