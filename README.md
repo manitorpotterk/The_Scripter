@@ -78,6 +78,11 @@ create a webserver.
 3. PHP
 
 
+## 6. Recon
+Recon is a simple script that will scan the whole machine stepwise  Like first it will quickly
+give results and then will perform a script scan and also start the full scan in the background.
+
+
 ## 7. Password Generator
 Password Generator is a password generation tool that will print the password of the
 desired length you just need to enter the length of the password and 4 passwords will be
